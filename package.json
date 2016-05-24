@@ -1,0 +1,36 @@
+{
+  "name": "download-all-files",
+  "version": "1.0.0",
+  "description": "Download all files from a web page",
+  "main": "app.js",
+  "scripts": {
+    "test": "eslint cli.js"
+  },
+  "bin": {
+    "dlaf": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fa7ad/download-all.git"
+  },
+  "keywords": [
+    "cheerio",
+    "crawler",
+    "download",
+    "all"
+  ],
+  "author": "Fahad Hossain <8bit.demoncoder@gmail.com> (http://fahad.gq/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fa7ad/download-all/issues"
+  },
+  "homepage": "https://github.com/fa7ad/download-all#readme",
+  "dependencies": {
+    "axios": "^0.11.1",
+    "cheerio": "^0.20.0",
+    "inquirer": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^2.10.2"
+  }
+}
