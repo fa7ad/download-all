@@ -1,8 +1,8 @@
 {
   "name": "download-all-files",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Download all files from a web page",
-  "main": "app.js",
+  "main": "cli.js",
   "scripts": {
     "test": "eslint cli.js"
   },
